@@ -1,0 +1,31 @@
+{
+  "name": "qrcode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ms-sesia/qrcode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ms-sesia/qrcode/issues"
+  },
+  "homepage": "https://github.com/Ms-sesia/qrcode#readme",
+  "dependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/node": "^7.19.1",
+    "@babel/plugin-transform-runtime": "^7.19.1",
+    "@babel/preset-env": "^7.19.1",
+    "@vector-express/vectorexpress-nodejs": "^1.0.1",
+    "dotenv": "^16.0.2",
+    "path": "^0.12.7",
+    "potrace": "^2.1.8",
+    "qrcode": "^1.5.1"
+  }
+}
